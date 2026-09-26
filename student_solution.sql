@@ -1,10 +1,5 @@
 USE CollegeDB;
 
 ALTER TABLE Student
-MODIFY Email VARCHAR(100),
-ADD PhoneNumber VARCHAR(15);
-
-
-ALTER TABLE Student
 ADD COLUMN Email VARCHAR(100),
 ADD COLUMN PhoneNumber VARCHAR(15);
