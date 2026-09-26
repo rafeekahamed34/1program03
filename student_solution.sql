@@ -1,3 +1,3 @@
-ALTER TABLE Student RENAME TO StudentDetails;
+USE CollegeDB;
 ALTER TABLE Student
-ADD Email VARCHAR(100);
+ADD COLUMN Email VARCHAR(100);
